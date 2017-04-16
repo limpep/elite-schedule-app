@@ -17,7 +17,10 @@
         <button ion-item *ngFor="let item of favorites">
           <ion-icon name="star"></ion-icon>
 
-          {{item.team.name}}</button>
+          {{item.team.name}}
+        <p>{{item.tournamentName}}</p>
+
+          </button>
 
       </ion-list>
     <button (click)="goToTournaments()">Find a Tournament</button>
