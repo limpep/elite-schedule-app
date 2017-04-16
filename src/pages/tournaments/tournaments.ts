@@ -36,7 +36,7 @@ export class Tournaments {
       },error=>{
         console.log(<any>error);
       });
-    })
+    });
 
 
   }
